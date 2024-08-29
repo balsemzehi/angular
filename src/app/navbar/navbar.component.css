@@ -1,0 +1,28 @@
+@keyframes saut {
+    0% { transform: translateY(100%); opacity: 0; }
+    50% { transform: translateY(-20%); opacity: 1; }
+    100% { transform: translateY(0); }
+}
+
+h1 {
+    color: #f47a60;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mot1 {
+    animation: saut 3s forwards;
+    animation-delay: 0s;
+}
+
+.mot2 {
+    animation: saut 2s forwards;
+    animation-delay: 0.5s;
+}
+
+.mot3 {
+    animation: saut 1s forwards;
+    animation-delay: 1s;
+}
